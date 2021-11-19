@@ -1,0 +1,41 @@
+https://cursos.alura.com.br/formacao-java
+https://cursos.alura.com.br/course/java8-lambdas
+
+1 - DEFAULT METHODS 
+foreach, Consumer e interfaces no java.util.functions
+forEach recebe como parâmetro a interface é a Consumer, que possui um único método abstrato chamado accept
+Vantagens dos default methods é que agora uma interface pode evoluir sem quebrar compatibilidade
+
+2 - QUE VENHAM OS LAMBDAS!
+São as chamadas classes anônimas, que usamos com frequência para implementar listeners e callbacks que não terão reaproveitamento.
+Em vez de usarmos classes anônimas, utilizamos o lambda para escrever códigos simples e sucintos nesses casos. 
+Uma interface que possui apenas um método abstrato é agora conhecida como interface funcional e pode ser utilizada dessa forma.
+para trabalhar com lambda, uma interface funcional precisa estar envolvida.
+
+3 - CÓDIGO MAIS SUCINTO COM METHOD REFERENCES
+Métodos default em Comparator
+É muito comum escrevermos lambdas curtos, que simplesmente invocam um único método
+Method reference
+
+4 - STREAMS: TRABALHANDO MELHOR COM COLEÇÕES
+Um stream representa uma sequência de elementos
+Stream não é uma List, não é uma Collection.
+Modificações em um stream não modificam a coleção/objeto que o gerou. 
+Tudo que é feito nesse fluxo de objetos, nesse Stream, não impacta, não tem efeitos colaterais na coleção original.
+Streams primitivos
+
+5 - MAIS STREAMS, COLLECTORS E APIS
+Os Streams possibilitam trabalhar com dados de uma maneira funcional. 
+Normalmente, são dados e objetos que vêm de uma collection do Java.
+Coletando o resultado do stream em uma List
+Com O método findAny() podemos utilizar para retornar qualquer elemento de um Stream
+
+6 - A NOVA API DE DATAS
+Conhecendo mais da API
+Trabalhando com Period
+Formatando suas datas
+Trabalhando com medida de tempo
+Lidando com modelos mais específicos
+
+
+
